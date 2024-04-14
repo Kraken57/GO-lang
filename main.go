@@ -2,11 +2,14 @@ package main
 
 import (
 	"fmt"
-	next "go-learning/myutils"
 )
 
 func main() {
 	fmt.Println("Learn Go Language ")
 
-	next.PrintMessage("Hello World")
+	var name string = "Ahmad"
+	fmt.Println(name)
+
+	var a = 65
+	fmt.Println(a)
 }
