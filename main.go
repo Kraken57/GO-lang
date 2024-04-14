@@ -12,4 +12,8 @@ func main() {
 
 	var a = 65
 	fmt.Println(a)
+
+
+	person := 123
+	fmt.Println(person)
 }
