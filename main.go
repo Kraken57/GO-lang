@@ -16,4 +16,13 @@ func main() {
 
 	person := 123
 	fmt.Println(person)
+
+
+	// Public variable (exported)
+	var PublicVariable int = 42
+	// Private variable (unexported)
+	var privateVariable int = 10
+	fmt.Println(PublicVariable, privateVariable)
+	// ● In this example, PublicVariable is visible and can be accessed from other
+	// packages, while privateVariable is only visible within the same package
 }
